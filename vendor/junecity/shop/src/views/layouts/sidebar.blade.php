@@ -25,14 +25,26 @@
            @can('AdminAccess', $user)
 
            <!-- Optionally, you can add icons to the links -->
-            
+
            <li class="treeview">
-                <a href="#"><span>Training</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <a href="#"><span>OPERATORS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
-                        <li><a href="">New</a></li>
-                        <li><a href="">Assign Training</a></li>
-                    <li><a href="">Completed</a></li>
+                    <li><a href="{{ URL::route('users') }}">Users</a></li>
+                    
+                    <li><a href="{{ URL::route('create-user') }}">CREATE</a></li>
+                     
+                </ul>
+            </li>
+
+            
+           <li class="treeview">
+                <a href="#"><span>TRAINING</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <ul class="treeview-menu">
+                   
+                        <li><a href="">NEW TRAINING</a></li>
+                        <li><a href="">ASSIGN TRAINING</a></li>
+                    <li><a href="">COMPLETED TRAINING</a></li>
                      
                 </ul>
             </li>
@@ -68,7 +80,7 @@
             
            
            <li class="treeview">
-                <a href="#"><span>USERS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <a href="#"><span>ACCOUNTS AND OPERATORS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
                     <li><a href="{{ URL::route('users') }}">Users</a></li>
@@ -79,12 +91,12 @@
             </li>
 
             <li class="treeview">
-                <a href="#"><span>Training</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <a href="#"><span>TRAINING</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
-                        <li><a href="">New</a></li>
-                        <li><a href="">Assign Training</a></li>
-                    <li><a href="">Completed</a></li>
+                        <li><a href="">NEW TRAINING</a></li>
+                        <li><a href="">ASSIGN TRAINING</a></li>
+                    <li><a href="">COMPLETED TRAINING</a></li>
                      
                 </ul>
             </li>
@@ -125,11 +137,12 @@
            @can('RegularAccess', $user)
 
            <li class="treeview">
-                <a href="#"><span>Training</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <a href="#"><span>TRAINING</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
-                        <li><a href="">New</a></li>
-                    <li><a href="">Completed</a></li>
+                        <li><a href="">NEW TRAINING</a></li>
+                    <li><a href="">COMPLETED TRAINING</a></li>
+                    <li><a href="">CERTIFICATES</a></li>
                      
                 </ul>
             </li>
