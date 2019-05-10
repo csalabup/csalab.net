@@ -28,9 +28,11 @@
    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
         <li class="active"><a href="#info" data-toggle="tab">INFO</a></li>
         <li><a href="#advance" data-toggle="tab">ADVANCE</a></li>
+
+        <!--
         <li><a href="#shop" data-toggle="tab">SHOP</a></li>
         <li><a href="#logo" data-toggle="tab">LOGO</a></li>
-        
+        -->
         
     </ul>
     <div id="my-tab-content" class="tab-content">
