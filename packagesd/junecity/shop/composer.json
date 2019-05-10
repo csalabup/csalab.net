@@ -1,0 +1,23 @@
+{
+    "name": "andre/shop",
+    "description": "This is Andre's shop",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "macus",
+            "email": "andre@afsigma.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+          "cartalyst/sentinel": "2.0.9"
+
+
+        },
+
+    "autoload": {
+        "psr-4": {
+            "junecity\\shop\\": "packages/junecity/shop/src"
+        }
+    }
+}
