@@ -28,7 +28,7 @@
    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
         <li class="active"><a href="#info" data-toggle="tab">INFO</a></li>
         <li><a href="#advance" data-toggle="tab">ADVANCE</a></li>
-        <li><a href="" data-toggle="tab">CERTIFICATES</a></li>
+        <li><a href="#certificates" data-toggle="tab">CERTIFICATES</a></li>
         @can('SuperAdminAccess', $user)
         <li><a href="#role" data-toggle="tab">ROLE</a></li>
 
@@ -57,6 +57,15 @@
             {!! Form::label('name', 'Name') !!}
             {!! Form::text('name', null , array('class' => 'form-control', 'autofocus'=>'', 'placeholder'=>'Name', 'value' => 'old(name)')) !!}
            </div>
+
+
+        </div>
+
+
+        <div class="tab-pane active" id="certificates">
+
+          
+          <h6>Certificates</h6>
 
 
         </div>
