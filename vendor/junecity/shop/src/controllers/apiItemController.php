@@ -3,7 +3,7 @@
 namespace junecity\shop\controllers;
 
 use junecity\shop\controllers\APIController;
-use junecity\shop\controllers\controller;
+use junecity\shop\controllers\Controller;
 use junecity\Services\ItemTransformer;
 use junecity\shop\models\Item;
 use junecity\shop\models\User;

@@ -2,7 +2,7 @@
 
 namespace junecity\shop\controllers;
 
-use junecity\shop\controllers\controller;
+use junecity\shop\controllers\Controller;
 use junecity\Services\ItemTransformer;
 use junecity\shop\models\Item;
 use Illuminate\Http\Request;

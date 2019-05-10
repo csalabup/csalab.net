@@ -25,50 +25,7 @@
            @can('AdminAccess', $user)
 
            <!-- Optionally, you can add icons to the links -->
-            <li class="treeview">
-                <a href="#"><span>ITEMS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
-                <ul class="treeview-menu">
-                    <li class="active"><a href="{{ URL::route('items') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-item') }}">CREATE</a></li>
-                </ul>
-            </li>
-
-            <li class="treeview">
-                <a href="#"><span>CATEGORIES</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
-                <ul class="treeview-menu">
-                    <li><a href="{{ URL::route('categories') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-category') }}">CREATE</a></li>
-                </ul>
-            </li>
-
-            <li class="treeview">
-                <a href="#"><span>ATTRIBUTES</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
-                <ul class="treeview-menu">
-                    <li><a href="#"><span>COLORS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-                        <ul class="treeview-menu">
-                        <li><a href="{{ URL::route('colors') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-color') }}">CREATE</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><span>SIZES</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-                        <ul class="treeview-menu">
-                        <li><a href="{{ URL::route('sizes') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-size') }}">CREATE</a></li>
-                       </ul>
-                    </li>
-                </ul>
-            </li>
-
-
-            <li class="treeview">
-                <a href="#"><span>MEDIA</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
-                <ul class="treeview-menu">
-                   
-                        <li><a href="{{ URL::route('media') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-media') }}">CREATE</a></li>
-                     
-                </ul>
-            </li>
+            
            
            <li class="treeview">
                 <a href="#"><span>USERS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
@@ -105,42 +62,8 @@
 
            @can('SuperAdminAccess', $user)
             <!-- Optionally, you can add icons to the links -->
-            <li class="treeview">
-                <a href="#"><span>ITEMS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
-                <ul class="treeview-menu">
-                    <li class="active"><a href="{{ URL::route('items') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-item') }}">CREATE</a></li>
-                </ul>
-            </li>
-
-            <li class="treeview">
-                <a href="#"><span>CATEGORIES</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
-                <ul class="treeview-menu">
-                    <li><a href="{{ URL::route('categories') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-category') }}">CREATE</a></li>
-                </ul>
-            </li>
-
-            <li class="treeview">
-                <a href="#"><span>ATTRIBUTES</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
-                <ul class="treeview-menu">
-                    <li><a href="#"><span>COLORS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-                        <ul class="treeview-menu">
-                        <li><a href="{{ URL::route('colors') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-color') }}">CREATE</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><span>SIZES</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
-                        <ul class="treeview-menu">
-                        <li><a href="{{ URL::route('sizes') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-size') }}">CREATE</a></li>
-                       </ul>
-                    </li>
-                </ul>
-            </li>
-
-
-            <li class="treeview">
+           
+           <li class="treeview">
                 <a href="#"><span>MEDIA</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
@@ -149,6 +72,7 @@
                      
                 </ul>
             </li>
+            
            
            <li class="treeview">
                 <a href="#"><span>USERS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>

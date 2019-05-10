@@ -4,5 +4,5 @@
        
     </div>
     <!-- Default to the left -->
-    <strong>Copyright © {{ date('Y') }} <a href="#">Junecity LLC</a>.</strong> All rights reserved.
+    <strong>Copyright © {{ date('Y') }} <a href="#">CSA</a>.</strong> All rights reserved.
 </footer>

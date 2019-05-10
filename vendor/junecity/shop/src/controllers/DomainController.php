@@ -4,7 +4,7 @@ namespace junecity\shop\controllers;
 
 
 use Illuminate\Pagination\LengthAwarePaginator;
-use junecity\shop\controllers\controller;
+use junecity\shop\controllers\Controller;
 use junecity\shop\jobs\UpdateResizeImage;
 use junecity\shop\services\S3upload;
 use junecity\shop\jobs\ResizeImage;

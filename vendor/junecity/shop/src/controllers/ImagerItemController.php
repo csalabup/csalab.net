@@ -4,7 +4,7 @@ namespace junecity\shop\controllers;
 
 
 use Illuminate\Support\Facades\Redirect;
-use junecity\shop\controllers\controller;
+use junecity\shop\controllers\Controller;
 use junecity\shop\models\Category;
 use junecity\shop\models\Original;
 use junecity\shop\models\Imager;

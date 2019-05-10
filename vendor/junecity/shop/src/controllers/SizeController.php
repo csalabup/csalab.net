@@ -3,7 +3,7 @@
 namespace junecity\shop\controllers;
 
 
-use junecity\shop\controllers\controller;
+use junecity\shop\controllers\Controller;
 use Illuminate\Support\Facades\Redirect;
 use junecity\shop\models\Category;
 use junecity\shop\models\Imager;
