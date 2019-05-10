@@ -56,10 +56,10 @@
   <a class="btn btn-default btn-xs" href="">delete</a>
 </div>
 
-
+@endif
   </li>
 
-  @endif
+  
 
   @endforeach
  </ul>
