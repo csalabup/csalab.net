@@ -26,16 +26,17 @@
 
            <!-- Optionally, you can add icons to the links -->
             
-           
            <li class="treeview">
-                <a href="#"><span>Course</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <a href="#"><span>Training</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
                         <li><a href="">New</a></li>
+                        <li><a href="">Assign Training</a></li>
                     <li><a href="">Completed</a></li>
                      
                 </ul>
             </li>
+           
 
             
 
@@ -77,6 +78,17 @@
                 </ul>
             </li>
 
+            <li class="treeview">
+                <a href="#"><span>Training</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <ul class="treeview-menu">
+                   
+                        <li><a href="">New</a></li>
+                        <li><a href="">Assign Training</a></li>
+                    <li><a href="">Completed</a></li>
+                     
+                </ul>
+            </li>
+
              <li class="treeview">
                 <a href="#"><span>MEDIA</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
@@ -111,6 +123,16 @@
            @endcan
 
            @can('RegularAccess', $user)
+
+           <li class="treeview">
+                <a href="#"><span>Training</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <ul class="treeview-menu">
+                   
+                        <li><a href="">New</a></li>
+                    <li><a href="">Completed</a></li>
+                     
+                </ul>
+            </li>
 
            <li class="treeview">
                 <a href="#"><span>PROFILE</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
