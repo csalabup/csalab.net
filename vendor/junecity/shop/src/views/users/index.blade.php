@@ -35,17 +35,17 @@
        
     
 
-     @endif
+     
      
 
 
   <a href="{{ URL::route('edit-user', $user->id) }}">
 
- @if ($user->role == 'Admin' )
+ 
 
   {{$user->name}}
 
-@endif
+
 
   </a>
 
@@ -58,6 +58,8 @@
 
 
   </li>
+
+  @endif
 
   @endforeach
  </ul>
