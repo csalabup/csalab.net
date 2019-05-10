@@ -5,7 +5,7 @@ namespace junecity\shop\Controllers\Auth;
 use junecity\shop\models\User;
 use junecity\shop\models\Setting;
 use junecity\shop\requests\Request;
-use junecity\shop\Controllers\Controller;
+use junecity\shop\controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

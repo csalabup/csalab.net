@@ -2,7 +2,7 @@
 
 namespace junecity\Http\Controllers\Auth;
 
-use junecity\Http\Controllers\Controller;
+use junecity\Http\controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller
