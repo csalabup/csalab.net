@@ -37,11 +37,6 @@ Route::group(['prefix' => 'dashboard', 'middleware' => ['web']], function()
 // Dashboard routes....
 Route::get('/', 'junecity\shop\controllers\DashboardController@index');
 
-
-
-// Dashboard routes...
-Route::get('/', ['as' => 'dashboard', 'uses' =>'junecity\shop\controllers\UserController@index']);
-
 // Dashboard routes...
 Route::get('/', ['as' => 'dashboard', 'uses' =>'junecity\shop\controllers\DashboardController@index']);
 
