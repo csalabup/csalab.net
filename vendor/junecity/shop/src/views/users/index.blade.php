@@ -27,25 +27,26 @@
 
  
 
-    @if ($user->role == 'Admin' )
+    @if ($user->role == 'SuperAdmin' )
 
-     
+      <i class="fa fa-circle text-green"></i>
+
+      @elseif ($user->role == 'Admin' )
 
       <i class="fa fa-circle text-yellow"></i>
        
-    
+      @elseif ($user->role == 'Regular' )
 
-     
+      <i class="fa fa-circle text-red"></i>
+
+     @endif
      
 
 
   <a href="{{ URL::route('edit-user', $user->id) }}">
 
- 
 
   {{$user->name}}
-
-
 
   </a>
 
@@ -56,10 +57,8 @@
   <a class="btn btn-default btn-xs" href="">delete</a>
 </div>
 
-@endif
-  </li>
 
-  
+  </li>
 
   @endforeach
  </ul>
