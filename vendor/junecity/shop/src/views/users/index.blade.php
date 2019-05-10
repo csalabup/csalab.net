@@ -27,17 +27,13 @@
 
  
 
-    @if ($user->role == 'SuperAdmin' )
+    @if ($user->role == 'Admin' )
 
-      <i class="fa fa-circle text-green"></i>
-
-      @elseif ($user->role == 'Admin' )
+     
 
       <i class="fa fa-circle text-yellow"></i>
        
-      @elseif ($user->role == 'Regular' )
-
-      <i class="fa fa-circle text-red"></i>
+    
 
      @endif
      
