@@ -27,7 +27,7 @@ class DashboardController extends Controller
      */
     public function index()
     {  
-        $page_title = 'Junecity Dashboard';
+        $page_title = 'Level 1 Uptime Optimization Dashboard';
 
         return view('junecity::dashboard.index', compact('page_title'));
     }
