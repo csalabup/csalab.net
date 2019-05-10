@@ -28,11 +28,11 @@
             
            
            <li class="treeview">
-                <a href="#"><span>USERS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <a href="#"><span>Course</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
-                        <li><a href="{{ URL::route('users') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-user') }}">CREATE</a></li>
+                        <li><a href="">New</a></li>
+                    <li><a href="">Completed</a></li>
                      
                 </ul>
             </li>
@@ -63,15 +63,7 @@
            @can('SuperAdminAccess', $user)
             <!-- Optionally, you can add icons to the links -->
            
-           <li class="treeview">
-                <a href="#"><span>MEDIA</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
-                <ul class="treeview-menu">
-                   
-                        <li><a href="{{ URL::route('media') }}">ALL</a></li>
-                    <li><a href="{{ URL::route('create-media') }}">CREATE</a></li>
-                     
-                </ul>
-            </li>
+          
             
            
            <li class="treeview">
@@ -81,6 +73,16 @@
                     <li><a href="{{ URL::route('users') }}">Users</a></li>
                     
                     <li><a href="{{ URL::route('create-user') }}">CREATE</a></li>
+                     
+                </ul>
+            </li>
+
+             <li class="treeview">
+                <a href="#"><span>MEDIA</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
+                <ul class="treeview-menu">
+                   
+                        <li><a href="{{ URL::route('media') }}">ALL</a></li>
+                    <li><a href="{{ URL::route('create-media') }}">CREATE</a></li>
                      
                 </ul>
             </li>

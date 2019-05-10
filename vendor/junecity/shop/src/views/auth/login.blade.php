@@ -5,7 +5,7 @@
 
 <div class="login-box">
       <div class="login-logo">
-        <a href="{{ url('/')}}"><b>Junecity</b></a>
+        <a href="{{ url('/')}}"><b>Level 1 Uptime Optimization</b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Sign in to start your session</p>
@@ -33,12 +33,7 @@
           </div>
         {!! Form::close() !!}
 
-        <div class="social-auth-links text-center">
-          <p>- OR -</p>
-          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using Facebook</a>
-          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using Google+</a>
-        </div><!-- /.social-auth-links -->
-
+        
         <a href="#">I forgot my password</a><br>
         <a href="{{ url('auth/register')}}" class="text-center">Register a new membership</a>
 

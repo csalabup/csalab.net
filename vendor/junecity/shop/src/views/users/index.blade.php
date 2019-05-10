@@ -46,7 +46,7 @@
   <a href="{{ URL::route('edit-user', $user->id) }}">
 
 
-  {{$user->email}}
+  {{$user->name}}
 
   </a>
 
