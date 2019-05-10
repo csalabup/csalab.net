@@ -7,7 +7,7 @@ class Example
    public function message()
    {
 
-    return 'works';
+    return 'work';
 
    }
 	
