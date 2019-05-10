@@ -28,8 +28,11 @@
    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
         <li class="active"><a href="#info" data-toggle="tab">INFO</a></li>
         <li><a href="#advance" data-toggle="tab">ADVANCE</a></li>
+        <li><a href="" data-toggle="tab">CERTIFICATES</a></li>
         @can('SuperAdminAccess', $user)
         <li><a href="#role" data-toggle="tab">ROLE</a></li>
+
+        @endcan
 
         @if($user->role != 'Regular')
 
@@ -37,7 +40,7 @@
         
         @endif
 
-        @endcan
+
     </ul>
     <div id="my-tab-content" class="tab-content">
 
