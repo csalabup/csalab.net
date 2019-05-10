@@ -25,7 +25,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-    <link href="{{ asset("/bower_components/admin-lte/dist/css/skins/skin-red-light.min.css")}}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("/bower_components/admin-lte/dist/css/skins/skin-red.min.css")}}" rel="stylesheet" type="text/css" />
 
     <!-- iCheck -->
     <link href="{{ asset("/bower_components/admin-lte/plugins/iCheck/all.css")}}" rel="stylesheet" type="text/css" />
@@ -40,7 +40,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="skin-red-light">
+<body class="skin-red">
 <div class="wrapper">
 
     <!-- Header -->
