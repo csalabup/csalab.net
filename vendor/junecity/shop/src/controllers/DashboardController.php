@@ -1,6 +1,6 @@
 <?php
 
-namespace junecity\shop\Controllers;
+namespace junecity\shop\controllers;
 
 use Illuminate\Http\Request;
 use junecity\shop\requests;
