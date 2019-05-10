@@ -30,7 +30,7 @@
                 <a href="#"><span>OPERATORS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
-                    <li><a href="{{ URL::route('users') }}">Users</a></li>
+                    <li><a href="{{ URL::route('users') }}">SHOW</a></li>
                     
                     <li><a href="{{ URL::route('create-user') }}">CREATE</a></li>
                      
@@ -83,7 +83,7 @@
                 <a href="#"><span>ACCOUNTS AND OPERATORS</span> <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></a>
                 <ul class="treeview-menu">
                    
-                    <li><a href="{{ URL::route('users') }}">USERS</a></li>
+                    <li><a href="{{ URL::route('users') }}">SHOW</a></li>
                     
                     <li><a href="{{ URL::route('create-user') }}">CREATE</a></li>
                      
