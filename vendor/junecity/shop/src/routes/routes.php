@@ -100,7 +100,7 @@ Route::put('/colors/update/{id}', ['as' => 'update-color', 'uses' => 'junecity\s
 Route::post('/color/store', ['as' => 'store-color', 'uses' => 'junecity\shop\controllers\ColorController@store']);
 
 // Imager routes....
-Route::post('/upload', 'junecity\shop\controllers\ImagerCategoryController@store');
+//Route::post('/upload', 'junecity\shop\controllers\ImagerCategoryController@store');
 
 
 // Media routes...

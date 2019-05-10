@@ -11,9 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+  //  return view('welcome');
+//});
+
+// Dashboard routes...
+Route::get('/', ['as' => 'dashboard', 'uses' =>'\junecity\shop\controllers\DashboardController@index']);
 
 /*
 |--------------------------------------------------------------------------
